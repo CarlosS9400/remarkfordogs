@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+    /*border: 1px solid red;*/
+}
+
+/* */
+
+.container {
+    
+    border: 5px solid darkblue;
+    border-radius: 5%;
+    
+    width: 375px;
+    padding: 1em;
+    margin: 1em auto;
+}
+
+header,
+main,
+footer {
+    padding: 0.5em;
+}
+
+.logo,
+.buttons {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+  width: 10%;
+}
+
+/*For the middle logo*/
+.logo .red-logo {
+    width: 20%;
+}
+
+.logo {
+    justify-content:space-between;
+}
+
+#content {
+    position: relative;
+    min-height: 70vh;
+}
+
+#dog-images {
+    width: 100%;
+    padding: 0.5em;
+    position: relative;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+#hidden-like,
+#hidden-nope {
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 30px;
+    transform: rotate(-15deg);
+    
+}
+
+
+#bio {
+    /*background: blue;*/
+    width: 80%;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 350px;
+    left: 15px;
+}
+
+.buttons {
+    justify-content: center;
+}
+
+
+.buttons img {
+    width: 50%;
+}
+
+#btn-1,
+#btn-2 {
+   border-radius: 50%;
+   padding: 0.3em;
+   margin-left: 1em;
+   border: 0;
+}
+
+#btn-1:hover,
+#btn-2:hover {
+  opacity: 0.5;
+  box-shadow: 3px 2px #888888;
+}
+
+.end-program{
+    margin: auto;
+    width: 70%;
+    padding: 1em;
+    border-radius: 10%;
+    background: grey;
+    color: white;
+    margin-top: 20%;
+    text-align: center;
+}
+
