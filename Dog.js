@@ -1,5 +1,5 @@
-import dogs from `data.js`
-// Create the Dog class here
+
+import dogs from './data.js'
 
 class Dog {
     constructor(data){
@@ -18,7 +18,7 @@ class Dog {
     }
     
     loadPage(){
-        
+        const {name, avatar, age, bio} = this
         document.getElementById("content").innerHTML = this.loadPageHtml()
         document.getElementById("hidden-like").style.display = "none"    
         document.getElementById("hidden-nope").style.display = "none"
@@ -29,6 +29,16 @@ class Dog {
     }
 
 }
+/*
+class Dog {
+    constructor(data) {
+      Object.assign(this, data)
+    }
+
+    say(){
+        document.getElementById("content").innerHTML=this.name+this.avatar+this.age+this.bio
+    }
+}
+*/
 
 export default Dog
-

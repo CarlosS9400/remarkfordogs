@@ -1,6 +1,6 @@
 // Remember to import the data and Dog class!
-import dogs from `data.js`
-import Dog from `Dog.js`
+import dogs from './data.js'
+import Dog from './Dog.js'
 
 let dogsArray = [0, 1, 2]
 
@@ -13,24 +13,24 @@ function getNewDog() {
 
 function loadNextImage() {
      
-     if (dogsArray.length>0) {
-        setTimeout(()=> {
-            dog = getNewDog()
-            dog.loadPage()
-            document.getElementById("btn-1").disabled = false
-            document.getElementById("btn-2").disabled = false
-            }, 2000)
-            
-     } if(dogsArray.length===0) {
-        setTimeout(()=>{
-            document.body.innerHTML = 
-            `<div class="end-program">
-                <h1>Thank for your remarks</h2>
-                <h2>Sorry, no more dogs</2> 
-                <h3>Good-Bye</h3>
-            </div>`},1500)
-         }
-         
+    if (dogsArray.length>0) {
+       setTimeout(()=> {
+           dog = getNewDog()
+           dog.loadPage()
+           document.getElementById("btn-1").disabled = false
+           document.getElementById("btn-2").disabled = false
+           }, 2000)
+           
+    } if(dogsArray.length===0) {
+       setTimeout(()=>{
+           document.body.innerHTML = 
+           `<div class="end-program">
+               <h1>Thank for your remarks</h2>
+               <h2>Sorry, no more dogs</2> 
+               <h3>Good-Bye</h3>
+           </div>`},1500)
+        }
+        
 
 }
 
@@ -74,29 +74,12 @@ function btnHeart(){
       
     }
     
-    
-
-    
 }
-
 let dog = getNewDog()
 dog.loadPage()
+
 document.getElementById("btn-1").disabled = false
 document.getElementById("btn-2").disabled = false
 
-
-
-
-
 document.getElementById("btn-1").addEventListener("click", btnCross)
 document.getElementById("btn-2").addEventListener("click", btnHeart)
-
-
-
-
-
-
-
-
-
-
