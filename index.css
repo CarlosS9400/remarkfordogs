@@ -127,7 +127,7 @@ h1 {
 }
 
 small {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 #btn-1,
@@ -219,14 +219,7 @@ small {
         text-align: left;
         
     }
-    
-    #bio h3 {
-        font-size: 1.2rem;
-    }
-    
-    small {
-        font-size: 0.8em;
-    }
+
 
     #btn-1,
     #btn-2 {
