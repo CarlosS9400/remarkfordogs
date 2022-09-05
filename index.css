@@ -1,18 +1,17 @@
 * {
+    /*border: 1px solid red;*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /*border: 1px solid red;*/
-    text-align: center;
     font-size: 16px;
-    
 }
 
 body {
-    
-    margin: auto;
+   
+    text-align: center;
 }
 
+/* keep the orientation in portrait */
 @media only screen and (orientation:landscape) {
     body {
       height: 100vw;
@@ -20,34 +19,26 @@ body {
     }
 }
 
-@media only screen and (orientation:portrait) {
-    body {
-      height: 100vw;
-      transform: rotate(0deg);
-    }
-}
-
-    
-
-
 h1 {
     font-size: 1rem;
     color: rgb(49, 4, 104);
     margin: 0.5em;
     padding: 0.5em;
 }
+
+
 .container {
   border: 10px solid rgb(33, 3, 61);
   min-width: 90%;
   max-width: 95%;
-  min-height: 80vh;
+  min-height: 60vh;
   margin: 0 auto;
   padding: 1.5em;
   border-radius: 10%;
 }
 
 #dog-images {
-    max-width: 95%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -75,9 +66,10 @@ h1 {
 }
 
 #content {
+    
     position: relative;
-    min-height: 60vh;
-    padding: 0em auto;
+    
+    
 }
 
 #dog-images {
@@ -107,12 +99,6 @@ h1 {
     
     top: 300px;
     left: 30px;
-}
-
-@media (max-width: 375px) {
-    #bio {
-        top: 220px;
-    }
 }
 
 #bio h3, #bio p {
@@ -156,7 +142,7 @@ small {
 @media (min-width: 667px) {
 
 .container {
-    
+   
     min-width: 40vw;
     max-width: 50vw;
     min-height: 100vh;
@@ -165,23 +151,11 @@ small {
 #bio {
     /*background: blue;*/
    
-    top: 250px;
+    top: 280px;
     left: 30px;
     
 }
 
-#bio h3, #bio p {
-    text-align: left;
-    
-}
-
-#bio h3 {
-    font-size: 1.2rem;
-}
-
-small {
-    font-size: 1rem;
-}
 
 }
 
@@ -197,6 +171,7 @@ small {
     .container {
         min-width: 20vw;
         max-width: 30vw;
+        
     }
 
     #hidden-like,
@@ -213,15 +188,15 @@ small {
         
     }
     
-    #bio h3, #bio p {
-        text-align: left;
-        
-    }
-
-
     #btn-1,
     #btn-2 {
         padding: 0.5em;
     }
+
+    .end-program {
+        min-height: 40vh;
+    }
+
+    
 
 }
