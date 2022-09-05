@@ -9,8 +9,26 @@
 }
 
 body {
-  margin: auto;
+    
+    margin: auto;
 }
+
+@media only screen and (orientation:landscape) {
+    body {
+      height: 100vw;
+      transform: rotate(90deg);
+    }
+}
+
+@media only screen and (orientation:portrait) {
+    body {
+      height: 100vw;
+      transform: rotate(0deg);
+    }
+}
+
+    
+
 
 h1 {
     font-size: 1rem;
@@ -139,11 +157,18 @@ small {
 
 @media (min-width: 667px) {
 
+.container {
+    
+    min-width: 40vw;
+    max-width: 50vw;
+    min-height: 100vh;
+}
+
 #bio {
     /*background: blue;*/
    
-    top: 8000px;
-    left: 50px;
+    top: 220px;
+    left: 30px;
     
 }
 
@@ -164,7 +189,13 @@ small {
 
 
 @media (min-width: 867px) {
-
+   
+    body {
+    height: 100vw;
+    transform: rotate(0deg);
+    }
+    
+    
     .container {
         min-width: 20vw;
         max-width: 30vw;
