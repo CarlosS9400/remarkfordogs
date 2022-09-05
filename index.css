@@ -84,8 +84,8 @@ h1 {
 }
 
 @media (max-width: 375px) {
-    #bio {
-        display: none;
+    .container {
+        background: blue;
     }
 }
 
