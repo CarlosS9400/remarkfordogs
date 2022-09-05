@@ -76,14 +76,14 @@ h1 {
 #hidden-nope {
     width: 30%;
     position: absolute;
-    z-index: 2;
+    
     top: 50px;
     left: 80px;
     transform: rotate(-15deg);
     
 }
 
-@media (max-width: 376px) {
+@media (max-width: 375px) {
     #bio {
         top: 200px;
     }
@@ -94,7 +94,7 @@ h1 {
     width: 80%;
     color: white;
     position: absolute;
-    z-index: 2;
+    
     top: 300px;
     left: 30px;
     
