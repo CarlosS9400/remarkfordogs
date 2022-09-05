@@ -83,13 +83,19 @@ h1 {
     
 }
 
+@media (max-width: 360px) {
+    #bio {
+        top: 200px;
+    }
+}
+
 #bio {
     /*background: blue;*/
     width: 80%;
     color: white;
     position: absolute;
     z-index: 2;
-    top: 200px;
+    top: 300px;
     left: 30px;
     
     
