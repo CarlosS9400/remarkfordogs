@@ -97,17 +97,9 @@ h1 {
     color: white;
     position: absolute;
     
-    top: 300px;
+    bottom: 20px;
     left: 30px;
 }
-
-@media (min-width: 365) {
-    #bio {
-        top: 250px;
-    }
-}
-
-
 
 #bio h3, #bio p {
     text-align: left;
@@ -172,15 +164,6 @@ footer {
     object-fit: cover;
 }
 
-#bio {
-    /*background: blue;*/
-   
-    top: 230px;
-    left: 30px;
-    
-}
-
-
 }
 
 
@@ -212,14 +195,6 @@ footer {
         max-width: 25%;
         top: 20px;
     } 
-
-    #bio {
-        /*background: blue;*/
-       
-        top: 300px;
-        left: 30px;
-        
-    }
     
     #btn-1,
     #btn-2 {
