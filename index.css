@@ -101,6 +101,14 @@ h1 {
     left: 30px;
 }
 
+@media (min-width: 365) {
+    #bio {
+        top: 250px;
+    }
+}
+
+
+
 #bio h3, #bio p {
     text-align: left;
     
@@ -167,7 +175,7 @@ footer {
 #bio {
     /*background: blue;*/
    
-    top: 300px;
+    top: 230px;
     left: 30px;
     
 }
