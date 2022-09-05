@@ -20,8 +20,8 @@ h1 {
 }
 .container {
   border: 10px solid rgb(33, 3, 61);
-  min-width: 95%;
-  max-width: 100%;
+  min-width: 90%;
+  max-width: 95%;
   min-height: 80vh;
   margin: 0 auto;
   padding: 1.5em;
