@@ -101,8 +101,12 @@ h1 {
     
 }
 
+#bio h3 {
+    font-size: 2.2rem;
+}
+
 small {
-    font-size: 0.7em;
+    font-size: 2em;
 }
 
 #btn-1,
@@ -146,11 +150,11 @@ small {
 }
 
 #bio h3 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 small {
-    font-size: 0.8em;
+    font-size: 1.5em;
 }
 
 }
