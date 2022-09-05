@@ -16,7 +16,7 @@ body {
 @media only screen and (orientation:landscape) {
     body {
       height: 100vw;
-      transform: rotate(90deg);
+      transform: rotate(-90deg);
     }
 }
 
