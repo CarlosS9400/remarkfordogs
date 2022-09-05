@@ -134,7 +134,7 @@ small {
     text-align: center;
 }
 
-@media (min-width: 665px) {
+@media (min-width: 500px) {
 
 .container {
     
