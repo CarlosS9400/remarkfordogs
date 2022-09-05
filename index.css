@@ -11,13 +11,8 @@ body {
     text-align: center;
 }
 
-/* keep the orientation in portrait */
-@media only screen and (orientation:landscape) {
-    body {
-      height: 100vw;
-      transform: rotate(-90deg);
-    }
-}
+
+
 
 h1 {
     font-size: 1rem;
@@ -169,12 +164,6 @@ footer {
 
 @media (min-width: 867px) {
    
-    body {
-    height:  50%;
-    transform: rotate(0deg);
-    }
-    
-    
     .container {
         
         min-width: 20vw;
