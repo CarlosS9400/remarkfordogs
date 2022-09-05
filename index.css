@@ -20,6 +20,16 @@ body {
     }
 }
 
+@media only screen and (orientation:portrait) {
+    body {
+      height: 100vw;
+      transform: rotate(0deg);
+    }
+}
+
+    
+
+
 h1 {
     font-size: 1rem;
     color: rgb(49, 4, 104);
@@ -170,7 +180,7 @@ small {
 }
 
 small {
-    font-size: 1em;
+    font-size: 1rem;
 }
 
 }
