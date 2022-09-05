@@ -46,8 +46,6 @@ h1 {
   border-radius: 10%;
 }
 
-
-
 #dog-images {
     max-width: 95%;
     margin: 0 auto;
@@ -178,11 +176,11 @@ small {
 }
 
 #bio h3 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 
 small {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 }
