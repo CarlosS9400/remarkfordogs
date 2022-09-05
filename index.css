@@ -83,7 +83,7 @@ h1 {
     
 }
 
-@media (max-width: 360px) {
+@media (max-width: 376px) {
     #bio {
         top: 200px;
     }
