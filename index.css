@@ -1,5 +1,5 @@
 * {
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -31,7 +31,7 @@ h1 {
   border: 10px solid rgb(33, 3, 61);
   min-width: 90%;
   max-width: 95%;
-  min-height: 60vh;
+  min-height: 80vh;
   margin: 0 auto;
   padding: 1.5em;
   border-radius: 10%;
@@ -139,19 +139,26 @@ small {
     text-align: center;
 }
 
-@media (min-width: 667px) {
+@media (min-width: 665px) {
 
 .container {
-   
+    
     min-width: 40vw;
     max-width: 50vw;
-    min-height: 100vh;
+    min-height: 100%;
+}
+
+header,
+main,
+footer {
+    
+    padding: 1.5em;
 }
 
 #bio {
     /*background: blue;*/
    
-    top: 280px;
+    top: 200px;
     left: 30px;
     
 }
@@ -163,15 +170,24 @@ small {
 @media (min-width: 867px) {
    
     body {
-    height: 100vw;
+    height:  50%;
     transform: rotate(0deg);
     }
     
     
     .container {
+        
         min-width: 20vw;
         max-width: 30vw;
-        
+    
+    }
+
+    header,
+    main,
+    footer {
+    
+    padding: 0.2em;
+    
     }
 
     #hidden-like,
