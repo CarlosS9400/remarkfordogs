@@ -23,7 +23,7 @@ function loadNextImage() {
            
     } if(dogsArray.length===0) {
        setTimeout(()=>{
-           document.body.innerHTML = 
+           document.getElementById("content").innerHTML=        
            `<div class="end-program">
                <h1>Thank for your remarks</h2>
                <h2>Sorry, no more dogs</2> 
